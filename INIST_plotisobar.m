@@ -23,8 +23,8 @@ for j=1:length(pv) % plot isobar number j
    end
 end
 
-plot(dat.sl,dat.Tsat);
-plot(dat.sv,dat.Tsat);
+plot(dat.sl,dat.Tsat,'r');
+plot(dat.sv,dat.Tsat,'r');
 
 if ok==0 
     error('uhh??)');
